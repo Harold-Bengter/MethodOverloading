@@ -20,17 +20,13 @@ namespace MethodOverloading
         {
             var sum = a + b;
 
-            if (isTrue == true && sum > 1)
+            if (isTrue == true && sum != 1)
             {
                 return $"{sum} dollars";
             }
             else if (isTrue == true && sum == 1)
             {
                 return $"{sum} dollar";
-            }
-            else if (isTrue == true && sum < 1)
-            {
-                return $"{sum} dollars";
             }
             else
             {
